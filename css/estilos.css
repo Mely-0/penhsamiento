@@ -8,12 +8,12 @@ body{
 width: 100%;
 height: 100%;
 display: grid;
-/* grid-auto-columns: 411px; */
+grid-auto-columns: 880fr 1fr 1fr ;
 grid-auto-rows: 250px 370px 255px;
 grid-template-areas:
-"hijo-1"
-"hijo-2"
-"hijo-3"
+"hijo-1 hijo-1 hio-1"
+"hijo-2 hijo-2 hijo-2"
+"hijo-3 hijo-3 hijo-3"
 
 ;
 }
@@ -75,9 +75,10 @@ ul li{
 }
 li a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     color: #244242;
     display: flex;
+
 }
 a:hover {
     color: #ff2121;
@@ -103,9 +104,11 @@ a:hover {
 #texto-1{
 text-align: center;
 color: #ff2121;
+font-size: 20px;
 }
 #texto-2{
 text-align: center;
+font-size: 13px;
 }
 .hijo-2{
     background-color:#c1c7c6;
@@ -133,8 +136,10 @@ text-align: center;
         text-align: center;
     }
     #tituloim{
+        
         text-align: center;
         color:#ff2121;
+        font-size: 15px;
         /* text-decoration:underline ; */
     }
 
@@ -173,6 +178,7 @@ text-align: center;
 }
 .tipitos-1 p{
 text-align: center;
+font-size: 12px;
 }
 .tipitos-2{
     width: 30%;
@@ -195,6 +201,7 @@ text-align: center;
 }
 .tipitos-2 p{
 text-align: center;
+font-size: 12px;
 }
 .tipitos-3{
     width: 30%;
@@ -217,7 +224,8 @@ text-align: center;
     margin-top: 10px;
 }
 .tipitos-3 p{
-text-align: center;
+text-align:center;
+font-size: 12px;
 
 }
 
@@ -262,9 +270,11 @@ text-align: center;
     height: 10px;
     color: #ff2121; 
     margin-bottom: 28px;
+    font-size: 15px;
 }
 #parrafito-2{
-    text-align:center;
+    text-align:justify;
+    font-size: 13px;
 }
 
 @media (min-width: 800px) {

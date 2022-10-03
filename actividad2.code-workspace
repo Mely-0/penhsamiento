@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../actividad2"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../maquetacion"
+		},
+		{
+			"path": "../actividad1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pagina web-aleatorio"
+	}
+}

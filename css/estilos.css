@@ -276,7 +276,34 @@ font-size: 12px;
     text-align:justify;
     font-size: 13px;
 }
+@media all and (min-width: 420px) {
+    html, body{
+        background-color: #f3e6dc;
+    }
 
+    .contenedor-pro{
+        width: 80%;
+        margin: auto;
+    }
+.tipitos-1{
+    width: 25%;
+    height: 80%;
+    flex-direction: column;
+
+}
+.tipitos-2{
+    width: 25%;
+    height: 80%;
+    flex-direction: column;
+
+}
+.tipitos-3{
+    width: 25%;
+    height: 80%;
+    flex-direction: column;
+
+}
+}
 @media all and (min-width: 800px) {
     html, body{
         background-color: #f3e6dc;

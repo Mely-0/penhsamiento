@@ -9,7 +9,7 @@ html, body{
     height: 100%;
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
-    grid-template-rows: 350px 325px 350px;
+    grid-template-rows: 300px 300px 300px;
     grid-template-areas:
         "hijo-1 hijo-1 hijo-1 "
         "hijo-2 hijo-2 hijo-2"
@@ -340,6 +340,7 @@ font-size: 12px;
     .contenedor-pro{
         width: 75%;
         margin: auto;
+        grid-template-rows: 350px 325px 350px;
     }
 
 }

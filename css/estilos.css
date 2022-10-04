@@ -9,7 +9,7 @@ html, body{
     height: 100%;
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 350px 325px 350px;
     grid-template-areas:
         "hijo-1 hijo-1 hijo-1 "
         "hijo-2 hijo-2 hijo-2"
@@ -106,6 +106,17 @@ font-size: 20px;
 #texto-2{
 text-align: center;
 font-size: 13px;
+}
+.btn-1{
+border: none;
+background-color: #244242;
+color: #e7d2c1;
+}
+@media (hover:hover){
+    input:hover{
+        background-color: #e7d2c1;
+        color: #244242;
+    }
 }
 .hijo-2{
     background-color:#c1c7c6;
@@ -265,6 +276,11 @@ font-size: 12px;
     align-items: center;
     flex-direction: column;
 }
+.raya{
+    width: 100px;
+    height: 2px;
+    background-color: #244242;
+}
 #parrafito-1{
     text-align: center;
     height: 10px;
@@ -291,26 +307,38 @@ font-size: 12px;
             margin: auto;
         }
     .tipitos-1{
-        width: 25%;
-        height: 80%;
+        width: 20%;
+        height: 90%;
         flex-direction: column;
     
     }
     .tipitos-2{
-        width: 25%;
-        height: 80%;
+        width: 20%;
+        height: 90%;
         flex-direction: column;
     
     }
     .tipitos-3{
-        width: 25%;
-        height: 80%;
+        width: 20%;
+        height: 90%;
         flex-direction: column;
     
     }
+    #tituloim{
+        font-size: 20px;
+    }
+    }
+    #parrafito-1{
+        font-size: 25px;
+        margin-bottom: 60px;
+    }
+    #parrafito-2{
+        text-align:center;
+        font-size: 20px;
+
     }
     .contenedor-pro{
-        width: 80%;
+        width: 75%;
         margin: auto;
     }
 
@@ -318,6 +346,6 @@ font-size: 12px;
 
 @media all and (min-width: 1280px) {
     .contenedor-pro{
-        width: 75%;   
+        width: 70%;   
     }
 }
